@@ -22,18 +22,18 @@ const jsUser={
 // console.log(jsUser.mysymbol)
 // console.log(jsUser)
 
-// jsUser.email="aditya@amazon.com"
-// Object.freeze(jsUser)
-// jsUser.email="aditya@microsoft.com"
-// console.log(jsUser.email)
+jsUser.email="aditya@amazon.com"
+Object.freeze(jsUser)
+jsUser.email="aditya@microsoft.com"
+console.log(jsUser.email)
 
 
-jsUser.greeting = function(){
-    console.log(`namaste js user`)
-}
-jsUser.greetingtwo = function(){
-    console.log(`namaste js user ${this.name}`)
-}
+// jsUser.greeting = function(){
+//     console.log(`namaste js user`)
+// }
+// jsUser.greetingtwo = function(){
+//     console.log(`namaste js user ${this.name}`)
+// }
 
-console.log( jsUser.greeting())
-console.log( jsUser.greetingtwo())
+// console.log( jsUser.greeting())
+// console.log( jsUser.greetingtwo())
